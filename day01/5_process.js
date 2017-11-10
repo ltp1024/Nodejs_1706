@@ -2,9 +2,14 @@
  * Created by web-01 on 2017/11/10.
  */
 
-console.log(process.arch);
-process.kill(process.pid);
-console.log(process.platform);
+const os = require('os'); // operating system
+let start = os.uptime();
+// ...
+console.log(os.uptime() - start);
+
+//console.log(process.arch);
+//process.kill(process.pid);
+//console.log(process.platform);
 
 //console.log(process.env);
 //console.log(process.cwd()); // current working directory
