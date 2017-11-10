@@ -5,8 +5,9 @@
 const http = require('http');
 
 let server = http.createServer((req, res) => {
-    res.write('Hello, Node.js!');
-    res.end('test...');
+    res.end('hi...')
 });
 
 server.listen('80');
+
+// http://thu.github.com/IDEA

@@ -4,3 +4,4 @@
 
 console.log('test');
 
+// Alt + F12 terminal
