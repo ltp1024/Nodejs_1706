@@ -24,3 +24,12 @@ buff1.write(s2, 1);
 console.log(buff1); // 41 41 00 00 ...
 
 //cpu - memory - hard driver
+
+console.log(Buffer.isEncoding('utf8'));
+console.log(Buffer.isEncoding('binary'));
+console.log(Buffer.isEncoding('ascii'));
+console.log(Buffer.isEncoding('hex'));
+console.log(Buffer.isEncoding('base64'));
+
+let buff2 = Buffer.from('你好！');
+console.log(buff2.toString('base64'));
