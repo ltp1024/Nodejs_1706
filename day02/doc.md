@@ -19,3 +19,16 @@
 - setImmediate() 立即执行，下一个队列的开头
 - process.nextTick() 立即执行，本次队列的结尾
 
+## Module
+- 核心模块
+- 第三方模块
+- 自定义模块
+	- 文件模块
+	- 目录模块
+		- `index.js`
+		- `package.json`
+
+- 模块的使用
+	- `exports` 导出
+	- `require` 引入
+
