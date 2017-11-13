@@ -11,4 +11,16 @@ console.log(buffer.toString()); //
 let buf = Buffer.alloc(4); // 1byte = 8bits [00000000, 11111111] - [00, ff]
 console.log(buf);
 
+let buff = Buffer.from([65, 66, 67]);
+console.log(buff.toString());
+
+let buff1 = Buffer.alloc(10);
+let s1 = 'AA';
+let s2 = 'BB';
+
+buff1.write(s1);
+buff1.write(s2, 1);
+
+console.log(buff1); // 41 41 00 00 ...
+
 //cpu - memory - hard driver
