@@ -2,16 +2,16 @@
  * Created by web-01 on 2017/11/13.
  */
 
-//setImmediate(() => {
+//setImmediate((p) => {
 //    console.log('set immediate...'); // 2
-//});
+//}, '');
 
 
 console.log('start...'); // 1
 
-setTimeout(() => {
-    console.log('set timeout...'); // 2
-}, 1000);
+setTimeout((param) => {
+    console.log('set timeout...: ' + param); // 2
+}, 10000, 'test param');
 
 sleep(2000);
 
