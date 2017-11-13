@@ -7,3 +7,5 @@
 - `Ctrl + Shift + W`
 
 - `Ctrl + P`
+
+- `Alt + Ctrl + A`

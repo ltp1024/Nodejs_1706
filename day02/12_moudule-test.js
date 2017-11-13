@@ -17,5 +17,8 @@
 //const circle = require('./circle');
 //console.log(circle.area(1.2));
 
-const m3 = require('./m3');
-console.log(m3.s3);
+//const m3 = require('./m3');
+//console.log(m3.s3);
+
+const m4 = require('./m4');
+console.log(m4.s4);
