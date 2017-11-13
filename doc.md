@@ -32,3 +32,12 @@
 	- `exports` 导出
 	- `require` 引入
 
+# Day02
+
+## NPM
+```
+npm install <package-name>
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+npm init
+npm install
+```
