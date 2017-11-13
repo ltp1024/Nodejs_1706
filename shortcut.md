@@ -4,4 +4,6 @@
 
 - `Ctrl + W`
 
-- `Ctrh + Shift + W`
+- `Ctrl + Shift + W`
+
+- `Ctrl + P`
