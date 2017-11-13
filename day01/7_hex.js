@@ -33,3 +33,5 @@ console.log(Buffer.isEncoding('base64'));
 
 let buff2 = Buffer.from('你好！');
 console.log(buff2.toString('base64'));
+
+console.log(buff2.length); // for 循环输出
