@@ -14,8 +14,8 @@
  - `__filename` global
 
 ## Timer
-- setTimeout()
-- setInterval()
-- setImmediate()
-- process.nextTick()
+- setTimeout() `delay` 延时执行，下一个队列的开头
+- setInterval() `delay` 循环执行，下一个队列的开头
+- setImmediate() 立即执行，下一个队列的开头
+- process.nextTick() 立即执行，本次队列的结尾
 
