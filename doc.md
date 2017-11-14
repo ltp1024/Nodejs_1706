@@ -68,15 +68,17 @@ npm install
  ---
  ## Github
 
- 1. fiel-settings-git-test [https://git-scm.com/](https://git-scm.com/)
- 2. fiel-settings-github-password-test
+ 1. File-Settings-git-test [https://git-scm.com/](https://git-scm.com/)
+ 2. File-Settings-github-password-test
  3. C:\Users\web-01\.gitconfig
 
  ```
  [user]
-     name = thu
-     email = mingfei.net@gmail.com
+     name = your_github_username
+     email = your_github_email
  ```
 
  4. .gitignore
- 5. VCS-import...-share project on github
+ 5. VCS-Import into Version Control-Share Project on GitHub
+ 6. commit & push `Ctrl + K | Shift + Ctrl + K`
+ 7. update `Ctrl + T`
