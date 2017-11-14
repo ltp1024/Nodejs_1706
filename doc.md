@@ -81,4 +81,4 @@ npm install
  4. .gitignore
  5. VCS-Import into Version Control-Share Project on GitHub
  6. commit & push `Ctrl + K | Shift + Ctrl + K`
- 7. update `Ctrl + T`
+ 7. Update `Ctrl + T`
