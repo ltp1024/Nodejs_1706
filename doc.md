@@ -49,3 +49,10 @@ npm install
  - `stringify()`
 
 ## url
+ - `parse()`
+ - `format()`
+
+## util
+ - `isXxx()`
+
+## fs
