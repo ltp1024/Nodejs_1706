@@ -61,6 +61,9 @@ npm install
  - `readFileSync()`
  - `stat()`
  - `readdir()`
+ - `writeFile()` 写出文件
+ - `appendFile()` 追加写出
+ - `mkdir()`
 
  ---
  ## Github
