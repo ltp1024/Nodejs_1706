@@ -13,7 +13,7 @@ server.on('request', (req, res) => {
     //res.write('ok...')
     res.writeHead(200, 'OK', {'Content-Type':'text/html;charset=UTF-8'});
     //res.writeHead(200, 'OK', {'Content-type':'text/html;charset=UTF-8'});
-    res.end('²âÊÔ');
+    res.end('æµ‹è¯•');
 });
 
 server.listen(80);

@@ -8,8 +8,10 @@ let options = {
     path: '/service/getIpInfo.php?ip=' + ip
 };
 
-http.request(options, (res) => {
+let request = http.request(options, (res) => {
     res.on('data', (result) => {
         console.log(result);
     })
 });
+
+request.end();
