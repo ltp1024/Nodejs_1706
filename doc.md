@@ -61,3 +61,19 @@ npm install
  - `readFileSync()`
  - `stat()`
  - `readdir()`
+
+ ---
+ ## Github
+
+ 1. fiel-settings-git-test [https://git-scm.com/](https://git-scm.com/)
+ 2. fiel-settings-github-password-test
+ 3. C:\Users\web-01\.gitconfig
+
+ ```
+ [user]
+     name = thu
+     email = mingfei.net@gmail.com
+ ```
+
+ 4. .gitignore
+ 5. VCS-import...-share project on github
