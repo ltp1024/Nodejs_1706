@@ -56,3 +56,8 @@ npm install
  - `isXxx()`
 
 ## fs
+ - 同步操作和异步操作的区别
+ - `readFile()`
+ - `readFileSync()`
+ - `stat()`
+ - `readdir()`
