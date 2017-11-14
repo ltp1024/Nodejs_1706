@@ -41,3 +41,11 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 npm init
 npm install
 ```
+
+# day03
+
+## querystring
+ - `parse()`
+ - `stringify()`
+
+## url
