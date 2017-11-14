@@ -11,7 +11,8 @@ server.on('request', (req, res) => {
     //console.log(req.httpVersion);
     //console.log(req.headers);
     //res.write('ok...')
-    //res.writeHeader(200, 'OK', {'content-type': 'txt/html; charset=utf-8'});
+    res.writeHead(200, 'OK', {'Content-Type':'text/html;charset=UTF-8'});
+    //res.writeHead(200, 'OK', {'Content-type':'text/html;charset=UTF-8'});
     res.end('≤‚ ‘');
 });
 
