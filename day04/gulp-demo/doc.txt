@@ -24,4 +24,14 @@
         d. 压缩文件
     4.6 安装 Gulp 的依赖,当前目录***以管理员身份***执行：
         cnpm install gulp-jshint gulp-sass gulp-concat gulp-uglify gulp-rename --save-dev
-    4.7 目录里手动创建 gulp 的配置文件 gulpfile.js
+    4.7 安装 jshint 模块,当前目录***以管理员身份***执行：
+        cnpm install jshint
+    4.8 目录里手动创建 gulp 的配置文件 gulpfile.js
+    4.9 Gulp 的方法有五个：
+        a. task：gulp 的任务
+        b. src：源代码的路径
+        c. dest：destination 目的地路径
+        d. run：运行，执行 Gulp 任务
+        e. watch：监听文件的变化
+    4.10 执行 Gulp 任务：当前项目目录命令行运行：
+        gulp [default]
