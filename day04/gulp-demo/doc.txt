@@ -19,7 +19,7 @@
     4.1 安装 Node.js
     4.2 创建一个目录 gulp-demo
     4.3 目录里执行命令：npm init，创建 package.json
-    4.4 目录里执行命令：cnpm install gulp --save-dev 安装 gulp，放入package.json的devDependencies里
+    4.4 目录里执行命令：cnpm install gulp -g 和 cnpm install gulp --save-dev 安装 gulp，放入package.json的devDependencies里
     4.5 Gulp 的作用
         a. 检查 JavaScript 的错误
         b. 编译 CSS 预处理器文件 Less、Scss、Sass、Stylus

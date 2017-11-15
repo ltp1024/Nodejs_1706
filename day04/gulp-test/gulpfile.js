@@ -9,7 +9,7 @@ var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 
 // 检查脚本
-gulp.task('lint', function() {
+gulp.task('hint', function() {
     gulp.src('./js/*.js')
         .pipe(jshint())
         .pipe(jshint.reporter('default'));
@@ -34,10 +34,10 @@ gulp.task('scripts', function() {
 
 // 默认任务
 gulp.task('default', function(){
-    gulp.run('lint', 'sass', 'scripts');
+    gulp.run('hint', 'sass', 'scripts');
 
     // 监听文件变化
     gulp.watch('./js/*.js', function(){
-        gulp.run('lint', 'sass', 'scripts');
+        gulp.run('hint', 'sass', 'scripts');
     });
 });
