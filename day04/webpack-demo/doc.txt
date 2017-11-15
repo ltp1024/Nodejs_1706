@@ -1,0 +1,4 @@
+1. 创建目录 webpack-demo
+2. 创建 package.json cmd：npm init
+3. 安装 webpack， 加入开发依赖 cmd：cnpm install webpack --save-dev
+4. 创建目录app，创建文件app/hello.js
