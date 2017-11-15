@@ -8,7 +8,7 @@ var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 
-// 检查 JavaScript 的错误
+// 检查脚本
 gulp.task('lint', function() {
     gulp.src('./js/*.js')
         .pipe(jshint())
