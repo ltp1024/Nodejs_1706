@@ -6,8 +6,8 @@ Mocha
 3. 安装 mocha 为项目 dev 依赖：cmd: cnpm i --save-dev mocha
 4. 安装 chai 为项目 dev 依赖：cmd: cnpm i --save-dev chai
 5. 创建文件 t1/add.js 被测试的函数
-6. 创建文件 t1/add.test.js 测试用例
-7. cmd: mocha add.test.js
+6. 创建文件 t1/add.test1.js 测试用例
+7. cmd: mocha add.test1.js
 8. decribe: test suite 测试套件，一个测试套件包含一组测试用例
 	 describe('测试套件名称', function(){});
 9. it: test case 测试用例，一个测试用例就是一次测试

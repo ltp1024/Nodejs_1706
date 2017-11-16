@@ -70,7 +70,7 @@
 // shim for using process in browser
 var process = module.exports = {};
 
-// cached from whatever global is present so that test runners that stub it
+// cached from whatever global is present so that demo runners that stub it
 // don't break things.  But we need to wrap it in a try catch in case it is
 // wrapped in strict mode code which doesn't define any globals.  It's inside a
 // function because try/catches deoptimize in certain engines.
@@ -925,7 +925,7 @@ module.exports = containsNode;
 function focusNode(node) {
   // IE8 can throw "Can't move focus to the control because it is invisible,
   // not enabled, or of a type that does not accept the focus." for all kinds of
-  // reasons that are too expensive and fragile to test.
+  // reasons that are too expensive and fragile to demo.
   try {
     node.focus();
   } catch (e) {}
@@ -1119,7 +1119,7 @@ function warnNoop(publicInstance, callerName) {
 var ReactNoopUpdateQueue = {
   /**
    * Checks whether or not this composite component is mounted.
-   * @param {ReactClass} publicInstance The instance we want to test.
+   * @param {ReactClass} publicInstance The instance we want to demo.
    * @return {boolean} True if mounted, false otherwise.
    * @protected
    * @final
@@ -1393,7 +1393,7 @@ function defineRefPropWarningGetter(props, displayName) {
 /**
  * Factory method to create a new React element. This no longer adheres to
  * the class pattern, so do not use new to call it. Also, no instanceof check
- * will work. Instead test $$typeof field against Symbol.for('react.element') to check
+ * will work. Instead demo $$typeof field against Symbol.for('react.element') to check
  * if something is a React Element.
  *
  * @param {*} type
@@ -1434,7 +1434,7 @@ var ReactElement = function (type, key, ref, self, source, owner, props) {
 
     // To make comparing ReactElements easier for testing purposes, we make
     // the validation flag non-enumerable (where possible, which should
-    // include every environment we run tests in), so the test framework
+    // include every environment we run tests in), so the demo framework
     // ignores it.
     Object.defineProperty(element._store, 'validated', {
       configurable: false,
@@ -5146,7 +5146,7 @@ function isEventSupported(eventNameSuffix, capture) {
   }
 
   if (!isSupported && useHasFeature && eventNameSuffix === 'wheel') {
-    // This is the only way to test support for the `wheel` event in IE9+.
+    // This is the only way to demo support for the `wheel` event in IE9+.
     isSupported = document.implementation.hasFeature('Events.wheel', '3.0');
   }
 
@@ -18052,7 +18052,7 @@ var ReactDOM = {
   __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED: {
     // For TapEventPlugin which is popular in open source
     EventPluginHub: EventPluginHub,
-    // Used by test-utils
+    // Used by demo-utils
     EventPluginRegistry: EventPluginRegistry,
     EventPropagators: EventPropagators,
     ReactControlledComponent: ReactControlledComponent,

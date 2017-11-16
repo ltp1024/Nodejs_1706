@@ -10,7 +10,7 @@ let pool = mysql.createPool({
 
 pool.getConnection((err, connection) => {
     if(err) throw err;
-    let sql = 'insert into scott.test values(null, ?, ?)';
+    let sql = 'insert into scott.demo values(null, ?, ?)';
     connection.query(sql, ['Jerry', '456'], (err, results, fields) => {
         if(err) throw err;
         console.log(results.affectedRows);

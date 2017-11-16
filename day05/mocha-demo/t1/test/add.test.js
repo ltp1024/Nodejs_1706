@@ -23,5 +23,5 @@ describe('A sub() Function Test', function () {
     })
 })
 
-// decribe: test suite 测试套件
-// it: test case 测试用例
+// decribe: demo suite 测试套件
+// it: demo case 测试用例

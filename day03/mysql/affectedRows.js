@@ -10,7 +10,7 @@ let pool = mysql.createPool({
 
 pool.getConnection((err, connection) => {
     if(err) throw err;
-    let sql = 'INSERT INTO scott.test(username, password) VALUES ?';
+    let sql = 'INSERT INTO scott.demo(username, password) VALUES ?';
     let data = [
         ['username1','password1'],
         ['username2','password2'],

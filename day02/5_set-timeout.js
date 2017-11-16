@@ -11,7 +11,7 @@ console.log('start...'); // 1
 
 setTimeout((param) => {
     console.log('set timeout...: ' + param); // 2
-}, 10000, 'test param');
+}, 10000, 'demo param');
 
 sleep(2000);
 
