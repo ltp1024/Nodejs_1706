@@ -1,5 +1,6 @@
 Mocha
 
+
 1. 全局安装 mocha：cmd: cnpm i -g mocha
 2. cmd: npm init
 3. 安装 mocha 为项目 dev 依赖：cmd: cnpm i --save-dev mocha
@@ -7,3 +8,10 @@ Mocha
 5. 创建文件 t1/add.js 被测试的函数
 6. 创建文件 t1/add.test.js 测试用例
 7. cmd: mocha add.test.js
+8. decribe: test suite 测试套件，一个测试套件包含一组测试用例
+	 describe('测试套件名称', function(){});
+9. it: test case 测试用例，一个测试用例就是一次测试
+   it('这次测试的名称', function(){});
+10. 断言库有很多种，当前的选择是 chai 断言库 
+11. chai 断言 assertion 基本语法：expect().to.be.equal(); 
+12. 创建文件夹 test，mocha 会自动执行 test 里的测试脚本 cmd: mocha
