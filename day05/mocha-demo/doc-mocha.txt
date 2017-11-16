@@ -13,5 +13,12 @@ Mocha
 9. it: test case 测试用例，一个测试用例就是一次测试
    it('这次测试的名称', function(){});
 10. 断言库有很多种，当前的选择是 chai 断言库 
-11. chai 断言 assertion 基本语法：expect().to.be.equal(); 
+11. chai 断言 assertion 基本语法：expect().to.be.equal();
+    11.1 to.be.equal
+    11.2 to.be.not.equal
+    11.3 to.be.ok
+    11.4 to.be.not.ok
+    11.5 to.include
+    11.6 to.contain
+    11.7 to.include.keys
 12. 创建文件夹 test，mocha 会自动执行 test 里的测试脚本 cmd: mocha
