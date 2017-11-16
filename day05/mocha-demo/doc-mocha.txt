@@ -1,6 +1,5 @@
 Mocha
 
-
 1. 全局安装 mocha：cmd: cnpm i -g mocha
 2. cmd: npm init
 3. 安装 mocha 为项目 dev 依赖：cmd: cnpm i --save-dev mocha
@@ -30,3 +29,6 @@ Mocha
 16. cmd: mocha --reporters 显示所有输出格式
 17. 安装 mochawesome 为项目 dev 依赖：cmd: cnpm i --save-dev mochawesome
 18. cmd: mocha --reporter mochawesome
+19. mocha 测试用例默认超时时间是 2000 毫秒，超出这个时间，均报错
+20. cmd: mocha --timeout 超时时间，修改默认值
+21. AJAX 异步请求测试用例?
