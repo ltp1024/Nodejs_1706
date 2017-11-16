@@ -1,0 +1,9 @@
+Mocha
+
+1. 全局安装 mocha：cmd: cnpm i -g mocha
+2. cmd: npm init
+3. 安装 mocha 为项目 dev 依赖：cmd: cnpm i --save-dev mocha
+4. 安装 chai 为项目 dev 依赖：cmd: cnpm i --save-dev chai
+5. 创建文件 t1/add.js 被测试的函数
+6. 创建文件 t1/add.test.js 测试用例
+7. cmd: mocha add.test.js
