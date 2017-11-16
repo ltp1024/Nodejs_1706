@@ -41,3 +41,21 @@ describe('Class D', () => {
         expect({k1: 'v1', k2: 'v2'}).to.include.keys('k1');
     })
 });
+
+describe('Class E', () => {
+    it('empty', () => {
+        expect('').to.be.empty;
+    });
+    it('empty', () => {
+        expect([]).to.be.empty;
+    });
+    it('empty', () => {
+        expect({}).to.be.empty;
+    });
+});
+
+describe('Class F', () => {
+    it('match', () => {
+        expect('Hello, world!').to.match(/^hello/i);
+    });
+});
