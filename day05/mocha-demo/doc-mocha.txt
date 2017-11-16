@@ -21,4 +21,12 @@ Mocha
     11.5 to.include
     11.6 to.contain
     11.7 to.include.keys
+		11.8 to.be.empty
+		11.9 to.match
 12. 创建文件夹 test，mocha 会自动执行 test 里的测试脚本 cmd: mocha
+13. cmd: mocha dir/*.js
+14. cmd: mocha --recursive 递归测试
+15. cmd: mocha --reporter spec 输出格式，默认 spec
+16. cmd: mocha --reporters 显示所有输出格式
+17. 安装 mochawesome 为项目 dev 依赖：cmd: cnpm i --save-dev mochawesome
+18. cmd: mocha --reporter mochawesome
