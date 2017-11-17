@@ -1,84 +1,82 @@
 # Day01
 
-## Buffer
+### Buffer
 
-#### Iteration
- - length
- - keys()
- - values()
- - entires()
-
-#### fs.readFile(path[, option], callback(err, data))
- - data: buffer
- - `__dirname` global
- - `__filename` global
-
-## Timer
-- setTimeout() `delay` ÑÓÊ±Ö´ĞĞ£¬ÏÂÒ»¸ö¶ÓÁĞµÄ¿ªÍ·
-- setInterval() `delay` Ñ­»·Ö´ĞĞ£¬ÏÂÒ»¸ö¶ÓÁĞµÄ¿ªÍ·
-- setImmediate() Á¢¼´Ö´ĞĞ£¬ÏÂÒ»¸ö¶ÓÁĞµÄ¿ªÍ·
-- process.nextTick() Á¢¼´Ö´ĞĞ£¬±¾´Î¶ÓÁĞµÄ½áÎ²
-
-## Module
-- ºËĞÄÄ£¿é
-- µÚÈı·½Ä£¿é
-- ×Ô¶¨ÒåÄ£¿é
-	- ÎÄ¼şÄ£¿é
-	- Ä¿Â¼Ä£¿é
-		- `index.js`
-		- `package.json`
-
-- Ä£¿éµÄÊ¹ÓÃ
-	- `exports` µ¼³ö
-	- `require` ÒıÈë
-
+- Iteration
+    - length
+    - keys()
+    - values()
+    - entires()
+    - fs.readFile(path[, option], callback(err, data))
+        - data: buffer
+        - __dirname global
+        - __filename global
+- Timer
+    - setTimeout() delay å»¶æ—¶æ‰§è¡Œï¼Œä¸‹ä¸€ä¸ªé˜Ÿåˆ—çš„å¼€å¤´
+    - setInterval() delay å¾ªç¯æ‰§è¡Œï¼Œä¸‹ä¸€ä¸ªé˜Ÿåˆ—çš„å¼€å¤´
+    - setImmediate() ç«‹å³æ‰§è¡Œï¼Œä¸‹ä¸€ä¸ªé˜Ÿåˆ—çš„å¼€å¤´
+    - process.nextTick() ç«‹å³æ‰§è¡Œï¼Œæœ¬æ¬¡é˜Ÿåˆ—çš„ç»“å°¾
+    
+### Module
+- æ ¸å¿ƒæ¨¡å—
+- ç¬¬ä¸‰æ–¹æ¨¡å—
+- è‡ªå®šä¹‰æ¨¡å—
+    - æ–‡ä»¶æ¨¡å—
+    - ç›®å½•æ¨¡å—
+    - index.js
+    - package.json
+    - æ¨¡å—çš„ä½¿ç”¨
+- exports å¯¼å‡º
+- require å¼•å…¥
+    
 # Day02
 
-## NPM
-```
-npm install <package-name>
-npm install -g cnpm --registry=https://registry.npm.taobao.org
-npm init
-npm install
-```
+### NPM
+- npm install <package-name>
+- npm install -g cnpm --registry=https://registry.npm.taobao.org
+- npm init
+- npm install
 
 # day03
 
-## querystring
- - `parse()`
- - `stringify()`
+### querystring
+- parse()
+- stringify()
 
-## url
- - `parse()`
- - `format()`
+### url
+- parse()
+- format()
 
-## util
- - `isXxx()`
+### util
+- isXxx()
 
-## fs
- - Í¬²½²Ù×÷ºÍÒì²½²Ù×÷µÄÇø±ğ
- - `readFile()`
- - `readFileSync()`
- - `stat()`
- - `readdir()`
- - `writeFile()` Ğ´³öÎÄ¼ş
- - `appendFile()` ×·¼ÓĞ´³ö
- - `mkdir()`
+### fs
+- åŒæ­¥æ“ä½œå’Œå¼‚æ­¥æ“ä½œçš„åŒºåˆ«
+- readFile()
+- readFileSync()
+- stat()
+- readdir()
+- writeFile() å†™å‡ºæ–‡ä»¶
+- appendFile() è¿½åŠ å†™å‡º
+- mkdir()
 
- ---
- ## Github
+### Github
 
- 1. File-Settings-git-test [https://git-scm.com/](https://git-scm.com/)
- 2. File-Settings-github-password-test
- 3. C:\Users\web-01\.gitconfig
+- File-Settings-git-test https://git-scm.com/
+- File-Settings-github-password-test
+- C:\Users\web-01.gitconfig
 
- ```
- [user]
-     name = your_github_username
-     email = your_github_email
- ```
+    ```
+    [user]                         ```
+        name = your_github_username
+        email = your_github_email  ```
+    ```
 
- 4. .gitignore
- 5. VCS-Import into Version Control-Share Project on GitHub
- 6. commit & push `Ctrl + K | Shift + Ctrl + K`
- 7. Update `Ctrl + T`
+
+- .gitignore
+
+    ```
+    VCS-Import into Version Control-Share Project on GitHub
+    commit & push Ctrl + K | Shift + Ctrl + K
+    Update Ctrl + T
+    ```
