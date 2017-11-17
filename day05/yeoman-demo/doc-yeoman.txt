@@ -4,4 +4,4 @@
 1. cmd: cnpm i -g yo bower gulp generator-webapp
 2. cmd: yo webapp
 3. cmd: cnpm install
-4. cmd: gulp <task>
+4. cmd: gulp serve

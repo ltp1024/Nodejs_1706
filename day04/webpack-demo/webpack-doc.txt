@@ -1,33 +1,33 @@
-1. ´´½¨Ä¿Â¼ webpack-demo
-2. ´´½¨ÎÄ¼ş package.json cmd£ºnpm init
-3. °²×° webpack£¬ ¼ÓÈëÈ«¾ÖÒÀÀµ cmd: cnpm install webpack -g
-4. ¼ÓÈëÏîÄ¿¿ª·¢ÒÀÀµ cmd: cnpm install webpack --save-dev
-5. ´´½¨Ä¿Â¼ app£¬´´½¨ÎÄ¼ş app/hello.js
-6. ´´½¨ÎÄ¼ş app/main.js
-7. ´´½¨Ä¿Â¼ public£¬´´½¨ÎÄ¼ş public/index.html
-8. ÔËĞĞÃüÁî£ºwebpack app/main.js public/bundle.js
-9. ä¯ÀÀÆ÷´ò¿ª index.html
+1. åˆ›å»ºç›®å½• webpack-demo
+2. åˆ›å»ºæ–‡ä»¶ package.json cmdï¼šnpm init
+3. å®‰è£… webpackï¼Œ åŠ å…¥å…¨å±€ä¾èµ– cmd: cnpm install webpack -g
+4. åŠ å…¥é¡¹ç›®å¼€å‘ä¾èµ– cmd: cnpm install webpack --save-dev
+5. åˆ›å»ºç›®å½• appï¼Œåˆ›å»ºæ–‡ä»¶ app/hello.js
+6. åˆ›å»ºæ–‡ä»¶ app/main.js
+7. åˆ›å»ºç›®å½• publicï¼Œåˆ›å»ºæ–‡ä»¶ public/index.html
+8. è¿è¡Œå‘½ä»¤ï¼šwebpack app/main.js public/bundle.js
+9. æµè§ˆå™¨æ‰“å¼€ index.html
 ------------------------
-10. ÏîÄ¿¸ùÄ¿Â¼ÏÂ£¬´´½¨ Webpack µÄÅäÖÃÎÄ¼ş£ºwebpack.config.js
-11. ÔËĞĞÃüÁî cmd: webpack
-12. ĞŞ¸Ä package.json ÎÄ¼ş£¬ÔÚ scripts Àï¼ÓÈë "start":"webpack"
-13. ÔËĞĞÃüÁî cmd: npm [run] start£¬run ½öÔÚ start Ê±¿ÉÒÔÊ¡ÂÔ
+10. é¡¹ç›®æ ¹ç›®å½•ä¸‹ï¼Œåˆ›å»º Webpack çš„é…ç½®æ–‡ä»¶ï¼šwebpack.config.js
+11. è¿è¡Œå‘½ä»¤ cmd: webpack
+12. ä¿®æ”¹ package.json æ–‡ä»¶ï¼Œåœ¨ scripts é‡ŒåŠ å…¥ "start":"webpack"
+13. è¿è¡Œå‘½ä»¤ cmd: npm [run] startï¼Œrun ä»…åœ¨ start æ—¶å¯ä»¥çœç•¥
 ------------------------
-14. °²×° dev ÒÀÀµ£ºcnpm install webpack-dev-server --save-dev
-15. ĞŞ¸Ä webpack.config.js£¬¼ÓÈë·şÎñÆ÷ÅäÖÃÏî
-16. ĞŞ¸Ä package.json£¬ÔÚ scripts Àï¼ÓÈë "server":"webpack-dev-server --open"
-17. ÔËĞĞÃüÁî cmd: npm run server
+14. å®‰è£… dev ä¾èµ–ï¼šcnpm install webpack-dev-server --save-dev
+15. ä¿®æ”¹ webpack.config.jsï¼ŒåŠ å…¥æœåŠ¡å™¨é…ç½®é¡¹
+16. ä¿®æ”¹ package.jsonï¼Œåœ¨ scripts é‡ŒåŠ å…¥ "server":"webpack-dev-server --open"
+17. è¿è¡Œå‘½ä»¤ cmd: npm run server
 ------------------------
-18. ´´½¨ÎÄ¼ş£ºapp/config.json
-19. ĞŞ¸ÄÎÄ¼ş£ºapp/hello.js
+18. åˆ›å»ºæ–‡ä»¶ï¼šapp/config.json
+19. ä¿®æ”¹æ–‡ä»¶ï¼šapp/hello.js
 ------------------------
-20. ¼ÓÈëÏîÄ¿¿ª·¢ÒÀÀµ cmd: cnpm install babel-core babel-loader babel-preset-es2015 babel-preset-react --save-dev
-21. ĞŞ¸ÄÎÄ¼ş£º./webpack.config.js
-22. ¼ÓÈëÏîÄ¿ÒÀÀµ cmd: cnpm install react react-dom
-23. ĞŞ¸ÄÎÄ¼ş£ºapp/hello.js
-24. ĞŞ¸ÄÎÄ¼ş£ºapp/main.js
+20. åŠ å…¥é¡¹ç›®å¼€å‘ä¾èµ– cmd: cnpm install babel-core babel-loader babel-preset-es2015 babel-preset-react --save-dev
+21. ä¿®æ”¹æ–‡ä»¶ï¼š./webpack.config.js
+22. åŠ å…¥é¡¹ç›®ä¾èµ– cmd: cnpm install react react-dom
+23. ä¿®æ”¹æ–‡ä»¶ï¼šapp/hello.js
+24. ä¿®æ”¹æ–‡ä»¶ï¼šapp/main.js
 ------------------------
-25. ¼ÓÈëÏîÄ¿¿ª·¢ÒÀÀµ cmd: cnpm install style-loader css-loader ¨C-save-dev
-	25.1 css-loader: Ê¹ÓÃ import ÒıÈë css
-	25.2 style-loader: °Ñ css ¼ÓÈë JavaScript
-26. ĞŞ¸ÄÎÄ¼ş£º./webpack.config.js
+25. åŠ å…¥é¡¹ç›®å¼€å‘ä¾èµ– cmd: cnpm install style-loader css-loader â€“-save-dev
+	25.1 css-loader: ä½¿ç”¨ import å¼•å…¥ css
+	25.2 style-loader: æŠŠ css åŠ å…¥ JavaScript
+26. ä¿®æ”¹æ–‡ä»¶ï¼š./webpack.config.js
